@@ -12,6 +12,9 @@
 body{
     background: linear-gradient(180deg, #49A4F8 0%, #FFFFFF 100%);
 }
+
+/*Header*/
+
 .navigator{
     display: flex;
     text-align: center;
@@ -38,12 +41,15 @@ body{
     margin: 50px 50px;
     width: 320px;
     height: 43px;
+    border: 2px solid #0085FF;
     background-color: #D9D9D9;
     border-radius: 25px;
     font-family: 'inter';
     font-weight: 400;
     font-size: 20px;
 }
+
+/*Main*/
 
 .login {
     display: flex;
@@ -74,4 +80,63 @@ body{
     height: 70px;
     background-color: #D9D9D9;
     border: 2px solid #0085FF;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    font-family: 'inter';
+    font-size: 25px;
+}
+.pe{
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.pe:hover{
+    color: #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
+}
+#logar{
+    width: 181px;
+    height: 61px;
+    margin-top: 100px;
+    font-family: 'inter';
+    font-size: 25px;
+    color: #00000073;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    border: 1px solid #0085FF;
+}
+.cadastro{
+    margin-top: 50px;
+    font-family: 'inter';
+    font-size: 25px;
+}
+.cad{
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.cad:hover{
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #4EA6F8;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    font-family: 'inter';
+    font-size: 20px;
+}
+.logofooter{
+    margin-bottom: 10px;
+}
+.p{
+    margin-bottom: 20px;
 }
