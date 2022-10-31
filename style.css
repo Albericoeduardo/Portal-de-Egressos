@@ -126,17 +126,27 @@ body{
 footer{
     background-color: #4EA6F8;
 }
-.rodape{
-    display: flex;
-    flex-direction: row;
-}
-.info{
-    font-family: 'inter';
-    font-size: 20px;
-}
 .logofooter{
     margin-bottom: 10px;
 }
 .p{
     margin-bottom: 20px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    font-family: 'inter';
+    font-size: 20px;
+}
+.links a{
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+.links a:hover{
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.links{
+    color: #FFFFFF;
 }
